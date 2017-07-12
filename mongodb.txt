@@ -1,0 +1,28 @@
+> use knowledgebase
+switched to db knowledgebase
+> db.createCollection("rca")
+{ "ok" : 1 }
+> db.rca.insert({appName:"RECON", technology:"Java",title:"NullPointerException"
+,probDesc:"NullPOinterException while starting the application",probDet:"getting
+ nullpointer exception when using type 2 driver", solution:"set the drivers path
+while starting the server"})
+WriteResult({ "nInserted" : 1 })
+>
+
+
+appName
+title
+appName: string;
+    technology: string;
+    title: string;
+    probDesc: string;
+    probDet: string;
+    solution: string;
+
+appName
+technology
+title
+probDesc
+probDet
+solution
+
